@@ -1,0 +1,7 @@
+numeros = []
+idade= input('INFORME SUA IDADE:')
+for i in range (20,100,1):
+    numeros.append(i)
+    if idade == i:
+    print(f'Existe no índice: {numeros.index(i)}')
+print(numeros)
